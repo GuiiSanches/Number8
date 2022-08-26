@@ -9,6 +9,7 @@ namespace DealerON.Model.Models
 {
     public class Product
     {
+        public int Code { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
         public IList<ProductTaxt_Type> ProductType { get; set; }

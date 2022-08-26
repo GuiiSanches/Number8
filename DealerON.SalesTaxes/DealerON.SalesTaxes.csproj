@@ -49,6 +49,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Users\guilh\Source\Repos\DealerON.Repository\DealerON.Repository.csproj">
+      <Project>{2189C238-9625-4825-9A77-98D0E49AD505}</Project>
+      <Name>DealerON.Repository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DealerON.Model\DealerON.Model.csproj">
       <Project>{2d09cdcc-a2b1-49f4-bd00-ceb17f459910}</Project>
       <Name>DealerON.Model</Name>
